@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #f2e3e1;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    color: #d4a8a0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #a88e8c;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4a8a0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .before-after, .testimonials, .how-it-works, .pricing {
+    padding: 20px;
+    text-align: center;
+}
+
+.features h2, .before-after h2, .testimonials h2, .how-it-works h2, .pricing h2 {
+    color: #d4a8a0;
+}
+
+.features .feature {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.features img {
+    width: 50px;
+    height: 50px;
+}
+
+.before-after img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.testimonials blockquote {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-left: 5px solid #d4a8a0;
+}
+
+.how-it-works ol {
+    text-align: left;
+    display: inline-block;
+}
+
+.pricing {
+    background-color: #f2e3e1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #d4a8a0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    display: inline-block;
+    text-align: left;
+}
+
+footer label {
+    display: block;
+    margin: 5px 0;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer button {
+    background-color: white;
+    color: #d4a8a0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
